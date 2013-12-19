@@ -1,1 +1,4 @@
-some of my vim stuff
+# vim stuff
+
+My vim configurations
+
