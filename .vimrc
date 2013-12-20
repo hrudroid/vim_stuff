@@ -15,11 +15,11 @@ nnoremap <C-l> <C-w>l
 
 " tab navigation <C-tab> move to right tab, <S-tab> move to left tab
 nnoremap <S-tab> :tabprevious<CR>
-nnoremap <C-tab>   :tabnext<CR>
-nnoremap <C-t>     :tabnew<CR>
+nnoremap <C-tab> :tabnext<CR>
+nnoremap <C-t>   :tabnew<CR>
 inoremap <S-tab> <Esc>:tabprevious<CR>i
-inoremap <C-tab>   <Esc>:tabnext<CR>i
-inoremap <C-t>     <Esc>:tabnew<CR>
+inoremap <C-tab> <Esc>:tabnext<CR>i
+inoremap <C-t>   <Esc>:tabnew<CR>
 
 " map for save file operations
 inoremap <C-s> <esc>:w<cr>
@@ -30,6 +30,9 @@ colorscheme elflord
 
 " turn on syntax highlight
 syntax enable
+
+" turn on line number
+set number
 
 " right margin line on the 121st column
 set cc=121 
