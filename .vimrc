@@ -12,6 +12,8 @@ nnoremap <C-h> <C-w>h
 nnoremap <C-j> <C-w>j
 nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
+" opening a vertical split window
+nnoremap <C-n> <C-w>v 
 
 " tab navigation <C-tab> move to right tab, <S-tab> move to left tab
 nnoremap <S-tab> :tabprevious<CR>
