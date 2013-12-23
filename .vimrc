@@ -16,7 +16,8 @@ nnoremap <C-l> <C-w>l
 nnoremap <C-n> <C-w>v 
 " force save and close window
 nnoremap <C-x> <Esc>:wq!<cr>
-
+" close window without save
+nnoremap <C-q> <Esc>:q!<cr>
 
 " tab navigation <C-tab> move to right tab, <S-tab> move to left tab
 nnoremap <S-tab> :tabprevious<CR>
@@ -53,3 +54,30 @@ if has("gui_running")
   endif
 endif
 
+"-----------------------------------------------------------------------------------------------------------------------
+" Vundle stuff
+
+set nocompatible              " be iMproved
+filetype off                  " required!
+
+" in unix this line is rtp+=~/.vim/bundle/vundle
+set rtp+=~/vimfiles/bundle/vundle/
+call vundle#rc()
+
+" let Vundle manage Vundle
+" required! 
+Bundle 'gmarik/vundle'
+
+" My bundles here:
+
+filetype plugin indent on     " required!
+"
+" Brief help
+" :BundleList          - list configured bundles
+" :BundleInstall(!)    - install (update) bundles
+" :BundleSearch(!) foo - search (or refresh cache first) for foo
+" :BundleClean(!)      - confirm (or auto-approve) removal of unused bundles
+"
+" see :h vundle for more details or wiki for FAQ
+" NOTE: comments after Bundle commands are not allowed.
+"-----------------------------------------------------------------------------------------------------------------------
