@@ -18,7 +18,18 @@ read the .vimrc as it contains useful key mappings to important commands
   - type `s/$/[string_you_want_to_insert]/g`
   - for e.g. if you want to append 'abcdef' at the end of each line the command line should look like `:<,'>s/$/abdef/g`
  
+#### Diffing 2 files
+  - open the 2 files in 2 vertically split windows
+  - type `:diffthis` to go into vimdiff mode 
+  - type `:diffoff` to turn off vimdiff mode
 
+The following are common commands when diffing:
+
+  - type `do` to get changes from other window into the current window.
+  - type `dp` to get the changes from current window into the other window.
+  - type `]c` to jump to the next change.  
+  - type `[c` to jump to the previous change.
+  - type `space` to unfold lines if certain lines are shown as folded
 
 ## Plugins
 #### Install NERDTree plugin on windows
