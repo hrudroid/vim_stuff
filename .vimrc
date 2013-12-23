@@ -14,6 +14,9 @@ nnoremap <C-k> <C-w>k
 nnoremap <C-l> <C-w>l
 " opening a vertical split window
 nnoremap <C-n> <C-w>v 
+" force save and close window
+nnoremap <C-x> <Esc>:wq!<cr>
+
 
 " tab navigation <C-tab> move to right tab, <S-tab> move to left tab
 nnoremap <S-tab> :tabprevious<CR>
