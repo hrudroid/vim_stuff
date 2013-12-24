@@ -69,6 +69,7 @@ call vundle#rc()
 Bundle 'gmarik/vundle'
 
 " My bundles here:
+Bundle 'scrooloose/nerdtree'
 
 filetype plugin indent on     " required!
 "
@@ -85,3 +86,5 @@ filetype plugin indent on     " required!
 " NERDTREE: show hidden files
 " let g:NERDTreeShowHidden=1
 
+" end of Vundle stuff
+" ----------------------------------------------------------------------------------------------------------------------
